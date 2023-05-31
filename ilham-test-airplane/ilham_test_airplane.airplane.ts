@@ -5,7 +5,8 @@ export default airplane.task(
     slug: "ilham_test_airplane",
     name: "Ilham Test Airplane",
     schedules: {
-      every_30_minute: {
+      ilham_test_airplane: {
+        name: "Ilham Test Airplane / Every 30 minutes UTC",
         cron: "*/30 * * * *",
         description: "Every 30 minutes UTC",
       },
