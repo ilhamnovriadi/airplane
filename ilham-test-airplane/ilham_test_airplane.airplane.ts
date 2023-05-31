@@ -9,6 +9,10 @@ export default airplane.task(
         name: "Every 30 minutes UTC",
         cron: "*/30 * * * *",
       },
+      ilham_test_airplane_2: {
+        name: "Every 10 minutes UTC",
+        cron: "*/10 * * * *",
+      },
     },
   },
   async () => {
